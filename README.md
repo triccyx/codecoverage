@@ -25,3 +25,5 @@ add_custom_target(run_unit_test ALL
     COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure
     DEPENDS ${PROJECT_NAME})
 ```
+
+Now just `make` command will execute all the tests.
